@@ -7,7 +7,7 @@ import br.gov.pbh.prefeitura.cadastroCarros.model.Carro;
 
 public interface CarroDao {
 
-	void insertCarro(Carro todo) throws SQLException;
+	void insertCarro(Carro carro) throws SQLException;
 
 	Carro selectCarro(Long id);
 
